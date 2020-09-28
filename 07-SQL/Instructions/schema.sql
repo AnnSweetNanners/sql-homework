@@ -7,7 +7,7 @@ CREATE TABLE "transaction" (
     "t_id" Serial   NOT NULL,
     "date" timestamp   NOT NULL,
     "amount" Float   NOT NULL,
-    "card" INT   NOT NULL,
+    "card" VARCHAR(20)   NOT NULL,
     "id_merchant" INT   NOT NULL,
     CONSTRAINT "pk_transaction" PRIMARY KEY (
         "t_id"

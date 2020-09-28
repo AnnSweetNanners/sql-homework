@@ -20,15 +20,21 @@ Card holder 2 consistently makes purchases under 20 dollars, most around 3-5 dol
 
 Below are box plots utilizing amounts and merchant types for employees intended to illustrate outlier transactions, and identify anomalous spending.
 
+### Box Plots by Month
+![January](Images/Jan.png)
+![February](Images/Feb.png)
+![March](Images/Mar.png)
+![April](Images/Apr.png)
+![May](Images/May.png)
+![June](Images/Jun.png)
+
 ### Box Plot All Transactions
 ![Box Plot Cardholder 25](Images/newplot_1.png)
 
 ### Box Plot Merchant as Restaurants only
 ![Box Plot Restaurant Only](Images/newplot_3.png)
 
-Examining the data, you do find outliers. I used 2 box plots to visualize the data. 
-
-Outliers occurred primarily in January and June beyond the first quarter. 
+Examining the data, you do find outliers. It's clear to see in the plots by month. 
 
 If you use the query and filter for restaurants, then run the box plot a second time using "name" as color, you discover that Nancy Contreras is the only one using the card at restaraunts, and you can determine easily how much her MIN, MEDIAN, MAX expenditures are month to month.
 
